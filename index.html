@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma za zadaću</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="table-container">
+        <table class="table">
+
+            <!-- HEADER -->
+            <div class="row-header-container">
+                <tr class="row-header">
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Broj telefona</th>
+                    <th>E-mail</th>
+                    <th>Izbriši</th>
+                </tr>
+            </div>
+
+            <!-- RED 1 -->
+            <div>
+                <tr class="row">
+                    <td>Pero</td>
+                    <td>Perić</td>
+                    <td>066/789-654</td>
+                    <td>pero.peric@tesla.com</td>
+                    <td><input type="button" class="button" value="x"></td>
+                </tr>
+            </div>
+            <!-- RED 2 -->
+            <div>
+                <tr>
+                    <td>Marko</td>
+                    <td>Marković</td>
+                    <td>066/158-224</td>
+                    <td>marko.markovic@tesla.com</td>
+                    <td><input type="button" class="button" value="x"></td>
+                </tr>
+            </div>
+        </table>
+    </div>
+
+    <!-- FORMA -->
+    <div class="form-container">
+        <form class="form">
+            <!-- IME -->
+            <div>
+                <input required type="text" name="name" id="name" placeholder="Ime">
+            </div>
+            <!-- PREZIME -->
+            <div>
+                <input required type="text" name="last-name" id="last-name" placeholder="Prezime">
+            </div>
+            <!-- BROJ TELEFONA -->
+            <div>
+                <input required type="text" name="phone" id="phone" placeholder="Broj telefona">
+            </div>
+            <!-- E-MAIL -->
+            <div>
+                <input required type="email" name="email" id="email" placeholder="E-mail">
+            </div>
+            <!-- DUGME -->
+            <div>
+                <input type="submit" class="button" value="DODAJ">
+            </div>
+
+        </form>
+
+    </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
